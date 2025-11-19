@@ -339,26 +339,28 @@ class _StopWatchState extends State<MyHomePage> with SingleTickerProviderStateMi
         ),
       ),
       bottomNavigationBar: Container(
-        padding: const EdgeInsets.all(12),
-        decoration: const BoxDecoration(
-          border: Border(
-            top: BorderSide(
-              color: Color.fromARGB(255, 56, 56, 56),
-              width: 1,
-            ),
-          ),
-        ),
-        child: const Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.timer,
-              color: Colors.white,
-              size: 40,
-            ),
-          ],
-        ),
+      decoration: const BoxDecoration(
+      border: Border(
+      top: BorderSide(
+      color: Color.fromARGB(255, 56, 56, 56),
+      width: 1,
       ),
+      ),
+      ),
+      child: const Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+      Text(
+      "developing tool",
+      style: TextStyle(
+        color: Colors.white70,
+          fontSize: 14,
+            fontWeight: FontWeight.w400,
+            ),
+            ),
+        ],
+      ),
+    ),
     );
   }
 }
